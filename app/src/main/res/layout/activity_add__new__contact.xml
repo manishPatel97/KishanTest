@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Add_New_Contact">
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_height="wrap_content">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Add_FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="18sp"
+            android:hint="Enter First Name"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#ffffff"
+            app:met_singleLineEllipsis="true"
+            android:inputType="text"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Add_LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="18sp"
+            android:hint="Enter Last Name"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#ffffff"
+            app:met_singleLineEllipsis="true"
+            android:inputType="text"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Add_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="18sp"
+            android:hint="Enter Phone Number"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#ffffff"
+            app:met_singleLineEllipsis="true"
+            android:inputType="number"/>
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <info.hoang8f.widget.FButton
+                android:id="@+id/add_Contact_Phone"
+                android:text="SELECT"
+                android:textColor="#FFFFFF"
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:shadowColor="#000000"
+                app:fButtonColor="@color/fbutton_color_sun_flower"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp"
+                app:cornerRadius="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KishanTest</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="ACCOUNT_SID_VALUE">AC653ad21606f176df97720942759a588b</string>
+    <string name="AUTH_TOKEN_VALUE">9a7724cc4e92ab4fccf03b7ac6b79b52</string>
+</resources>
